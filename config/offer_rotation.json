@@ -1,0 +1,86 @@
+{
+  "duration_days": 7,
+  "weekend_offer_enabled": true,
+  "weekend_start_weekday_utc": 5,
+  "weekend_duration_days": 2,
+  "weekend_cycle_anchor_utc": "2026-07-25",
+  "weekend_offer_cycle": [
+    {
+      "surface_dino": "Indominus",
+      "building": "Build_HotAirBalloon_5x5",
+      "market_slot": 1
+    },
+    {
+      "surface_dino": "Yutyrannus",
+      "building": "AQBuild_ObsDeck000_4x4",
+      "market_slot": 2
+    },
+    {
+      "surface_dino": "Carnotaurus",
+      "building": "AQDeco_Galleon000_5x5",
+      "market_slot": 3
+    },
+    {
+      "surface_dino": "Nasutoceratops",
+      "building": "AQBuild_Garden000_4x4",
+      "market_slot": 4
+    },
+    {
+      "surface_dino": "Indominus",
+      "building": "ARBuild_PowerGen000_2X2",
+      "market_slot": 5
+    },
+    {
+      "surface_dino": "Yutyrannus",
+      "building": "ARBuild_HotSprin000_4X4",
+      "market_slot": 9
+    }
+  ],
+  "event_weekend_only": true,
+  "event_start_weekday_utc": 5,
+  "event_duration_days": 2,
+  "event_random_weekend_dino": true,
+  "event_avoid_repeat": true,
+  "event_dinos": [
+    "Rajasaurus",
+    "Deinosuchus",
+    "Enchodus",
+    "Diprotodon",
+    "Baculites",
+    "Hyaenodon",
+    "Utahraptor",
+    "Platybelodon",
+    "Dolichorhynchops",
+    "Marsupial Lion",
+    "Metriorhynchus",
+    "Hyneria",
+    "Odobenocetops",
+    "Arthropleura",
+    "Edestus",
+    "Shunosaurus",
+    "Shastasaurus",
+    "Dreadnoughtus",
+    "Giganotosaurus",
+    "Suchomimus",
+    "Castoroides",
+    "Euoplocephalus",
+    "Archaeotherium"
+  ],
+  "surface_addon_dinos": [
+    "Indominus",
+    "Carnotaurus",
+    "Nasutoceratops",
+    "Yutyrannus"
+  ],
+  "aquatic_addon_dinos": [
+    "Dakosaurus",
+    "Megalodon",
+    "Trinacromerum"
+  ],
+  "glacier_addon_dinos": [
+    "Titanoboa",
+    "Procoptodon",
+    "Indricotherium"
+  ],
+  "market_item_ids": {}
+}

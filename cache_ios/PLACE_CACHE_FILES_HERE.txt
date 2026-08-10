@@ -1,0 +1,4 @@
+This directory intentionally contains no game cache.
+
+Place the matching platform cache files directly in this directory.
+Read ..\CACHE_SETUP.txt before starting the server.
