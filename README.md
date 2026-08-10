@@ -11,8 +11,9 @@ Run a compatible client against a self-hosted Dino Server on your own local netw
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Latest release](https://img.shields.io/github/v/release/LastThylacine/dino-server-releases?label=release)](../../releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D4)](../../releases/latest)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/72PQpWN3K)
 
-**[Download latest release](../../releases/latest)** · **[Changelog](CHANGELOG.md)** · **[Source](.)**
+**[Download latest release](../../releases/latest)** · **[Discord](https://discord.gg/72PQpWN3K)** · **[Changelog](CHANGELOG.md)** · **[Source](.)**
 
 </div>
 
@@ -175,6 +176,14 @@ Dino Server is an independent fan-made project.
 Jurassic Park Builder and related names, trademarks, artwork, characters, and other intellectual property belong to their respective rights holders. No ownership of the original game or its proprietary content is claimed by this project.
 
 This repository does not provide the original game application or proprietary game data.
+
+---
+
+## Community
+
+Join the Dino Server community on Discord:
+
+**[Join our Discord server](https://discord.gg/72PQpWN3K)**
 
 ---
 
