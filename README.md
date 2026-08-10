@@ -22,7 +22,7 @@ Run a compatible client against a self-hosted Dino Server on your own local netw
 
 **Dino Server** is an independent, fan-made open-source project for local self-hosting and compatibility with **Jurassic Park Builder** clients.
 
-It provides the server-side services and a Windows launcher used to configure and run those services on a local network. This repository contains the Dino Server source code and project-created resources.
+It provides the server-side services and a Windows launcher used to configure and run those services on a local network. This repository contains the Dino Server source code, required Dino Server runtime configuration, and project-created resources.
 
 It does **not** contain or distribute:
 
@@ -42,7 +42,7 @@ Dino Server is not affiliated with, endorsed by, sponsored by, or approved by th
 
 <div align="center">
 
-<img src="docs/screenshots/overview.png" width="100%" alt="Dino Server Overview window">
+<img src="docs/screenshots/overview.jpg" width="100%" alt="Dino Server Overview window">
 
 <sub>Dino Server 1.0.18 — Overview</sub>
 
@@ -64,7 +64,7 @@ Dino Server is not affiliated with, endorsed by, sponsored by, or approved by th
 
 ## Repository policy
 
-Dino Server keeps source code separate from game data.
+Dino Server keeps its source and server runtime files separate from game cache payloads and personal runtime state.
 
 The cache directories in this repository contain placeholders only:
 
@@ -73,7 +73,7 @@ cache_android/PLACE_CACHE_FILES_HERE.txt
 cache_ios/PLACE_CACHE_FILES_HERE.txt
 ```
 
-Runtime cache files are ignored by Git. Compatibility/configuration data that may originate from a local client installation is also intentionally excluded from the source repository.
+Required Dino Server runtime configuration such as `fixed_manifest*`, `cache_index*`, `onlineoptions`, and `offer_rotation.json` is versioned with the source because the server requires it to run. Personal/local state such as linked devices, allow-list data, saves, backups, logs, and user-provided cache payloads is not tracked.
 
 See [`config/README.md`](config/README.md) for details.
 
@@ -122,7 +122,7 @@ pip install -r requirements.txt
 python -m launcher.app
 ```
 
-Some runtime compatibility/configuration files are intentionally not distributed in this source repository. See [`config/README.md`](config/README.md).
+The server's required tracked runtime configuration is included in the repository. Game cache payloads are not included; place your own compatible local files in the cache directories as described in `CACHE_SETUP.txt`.
 
 ---
 
@@ -134,7 +134,7 @@ jpb_server/        Core local server implementation
 tools/             Maintenance and local administration utilities
 assets/icons/      Launcher icons with third-party license notices
 icons/             Dino Server application icons
-config/            Local configuration examples and documentation
+config/            Required server runtime configuration and documentation
 cache_android/     Empty placeholder for user-provided local data
 cache_ios/         Empty placeholder for user-provided local data
 docs/screenshots/  Project screenshots used by this README
