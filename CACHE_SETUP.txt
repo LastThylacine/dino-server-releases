@@ -1,0 +1,21 @@
+Cache setup
+===========
+
+Dino Server does not import, download, unpack, convert, move or reorganize
+cache files.
+
+Place the two already prepared platform sets directly in:
+
+  cache_ios\
+  cache_android\
+
+Do not nest another cache directory and do not mix platform files. Dino Server
+validates every required filename and file size in the selected folder and
+serves only that folder during a run.
+
+Then run DinoServer.exe, choose the matching platform and click Start server.
+You can check both folders at any time with:
+
+  Diagnostics -> Check cache files
+
+The result lists every missing or incomplete file. The check is read-only.
