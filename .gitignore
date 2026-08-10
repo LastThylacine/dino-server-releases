@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Local runtime state
+*.log
+logs/
+saves/
+backups/
+*.bak
+*.tmp
+
+# User-provided game/client data
+cache_android/*
+!cache_android/PLACE_CACHE_FILES_HERE.txt
+cache_ios/*
+!cache_ios/PLACE_CACHE_FILES_HERE.txt
+
+# Runtime/generated configuration
+config/device_links.json
+config/whitelist.json
+config/cache_index*.json
+config/fixed_manifest*.json
+config/onlineoptions
+
+# Built application artifacts
+DinoServer.exe
+*.zip
+*.sha256
+build/
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
