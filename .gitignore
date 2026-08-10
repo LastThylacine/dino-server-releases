@@ -19,12 +19,9 @@ cache_android/*
 cache_ios/*
 !cache_ios/PLACE_CACHE_FILES_HERE.txt
 
-# Runtime/generated configuration
+# Runtime-generated personal/local state
 config/device_links.json
 config/whitelist.json
-config/cache_index*.json
-config/fixed_manifest*.json
-config/onlineoptions
 
 # Built application artifacts
 DinoServer.exe
