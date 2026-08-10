@@ -43,7 +43,7 @@ Dino Server is not affiliated with, endorsed by, sponsored by, or approved by th
 
 <div align="center">
 
-<img src="docs/screenshots/overview.jpg" width="100%" alt="Dino Server Overview window">
+<img src="docs/screenshots/overview.png" width="100%" alt="Dino Server Overview window">
 
 <sub>Dino Server 1.0.18 — Overview</sub>
 
